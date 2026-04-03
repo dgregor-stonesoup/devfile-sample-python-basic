@@ -25,7 +25,7 @@ spec:
   - name: output-image
     value: quay.io/dgregor_org/default/devfile-sample-python-basic:{{revision}}
   - name: dockerfile
-    value: Dockerfile
+    value: docker/Dockerfile
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while maintaining trust after pipeline customization.
